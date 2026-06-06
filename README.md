@@ -9,7 +9,7 @@ Welcome to my Artificial Intelligence Course Portfolio. This portfolio documents
 
 | Section | Description |
 |---|---|
-| [Course Overview](course_overview/) | Course introduction, outcomes, and learning goals |
+| [Course Overview](course_overview/) | Index, Course introduction, outcomes, and learning goals |
 | [Exams](exams/) | Midterm and final exam reflections |
 | [Assignments](assignments/) | Programming assignments and reflections |
 | [Essays and Forums](essays_and_forums/) | Essays, debates, and forum contributions |
