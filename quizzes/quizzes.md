@@ -14,6 +14,7 @@
 Throughout the semester, quizzes were used to reinforce the concepts discussed in lectures and readings. These assessments covered a wide variety of Artificial Intelligence topics, including intelligent agents, search algorithms, constraint satisfaction problems, adversarial search, logic, Large Language Models, and prompt engineering.
 
 Overall, I obtained a final quiz average of **82.67%**. While some quizzes were more challenging than others, they provided valuable feedback on my understanding of the course material and helped identify areas that required additional study.
+
 ---
 I performed particularly well in quizzes related to:
 
@@ -26,6 +27,7 @@ I performed particularly well in quizzes related to:
 - Resolution and Logical Reasoning
 
 Many of these quizzes resulted in perfect or near-perfect scores, demonstrating a strong understanding of both classical and modern AI concepts.
+
 ---
 Some quizzes revealed weaknesses in topics such as:
 
