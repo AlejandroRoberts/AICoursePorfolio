@@ -1,7 +1,7 @@
 # Artificial Intelligence Course Portfolio
 
-**ICOM5015 / CIIC5015**  
-**Alejandro Roberts**
+**ICOM5015**  
+**By: Alejandro A. Roberts Quintana**
 
 Welcome to my Artificial Intelligence Course Portfolio. This portfolio documents my learning journey throughout the course, including programming assignments, exams, quizzes, essays, literature reviews, and AI applications developed during the semester.
 
