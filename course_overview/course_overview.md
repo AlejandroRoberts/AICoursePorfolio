@@ -1,4 +1,4 @@
-[← Back to Home](../)
+[← Back to Home](https://github.com/AlejandroRoberts/AICoursePorfolio)
 
 # Course Overview
 
