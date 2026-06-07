@@ -11,8 +11,9 @@ Welcome to my Artificial Intelligence Course Portfolio. This portfolio documents
 |---|---|
 | [Course Overview](course_overview/) | Course introduction, outcomes, and learning goals |
 | [Exams](exams/) | Midterm and final exam reflections |
-| [Assignments](assignments/) | Programming assignments and reflections |
+| [Programming Assignments](assignments/) | Programming assignments and reflections |
 | [Essays and Forums](essays_and_forums/) | Essays, debates, and forum contributions |
-| [Literature Review](literature_review/) | AI papers and article summaries |
 | [Applications and Demos](applications_and_demos/) | AI project demos, screenshots, and videos |
+| [Teamwork and Collaboration](teamwork/) | Reflection on team collaboration and lessons learned | 
 | [Self Assessment](self_assessment/) | Final reflection on strengths and growth |
+| [Literature Review](literature_review/) | AI papers and article summaries |
