@@ -1,7 +1,7 @@
 # Artificial Intelligence Course Portfolio
 
-**ICOM5015 / CIIC5015**  
-**Alejandro Roberts**
+**ICOM5015**  
+**By: Alejandro A. Roberts Quintana**
 
 Welcome to my Artificial Intelligence Course Portfolio. This portfolio documents my learning journey throughout the course, including programming assignments, exams, quizzes, essays, literature reviews, and AI applications developed during the semester.
 
@@ -11,7 +11,8 @@ Welcome to my Artificial Intelligence Course Portfolio. This portfolio documents
 |---|---|
 | [Course Overview](course_overview/) | Course introduction, outcomes, and learning goals |
 | [Exams](exams/) | Midterm and final exam reflections |
-| [Programming Assignments](assignments/) | Programming assignments and reflections |
+| [Programming Programming Assignments](assignments/) | Programming assignments and reflections |
+| [Quizzes](quizzes/) | Reflection of performance in quizzes | 
 | [Essays and Forums](essays_and_forums/) | Essays, debates, and forum contributions |
 | [Applications and Demos](applications_and_demos/) | AI project demos, screenshots, and videos |
 | [Teamwork and Collaboration](teamwork/) | Reflection on team collaboration and lessons learned | 
