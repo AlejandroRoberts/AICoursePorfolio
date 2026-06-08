@@ -12,7 +12,7 @@ In the second exercise, we explored a more challenging environment where the env
 - randomized reflex agent 
 - stateful reflex agent
 
-Each agent was evaluated in multiple environments to observe how exploration, memory, and decision making affected performance. Pandas and matplotlib was used for data visualization. 
+Each agent was evaluated in multiple environments to observe how exploration, memory, and decision making affected performance.
 
 ## Challenges
 
