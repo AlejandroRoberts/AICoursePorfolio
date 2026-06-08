@@ -1,4 +1,4 @@
-# Project 3 Reflection
+# Project 3 - Search Algorithms
 
 ## Objective 
 The objective of this assignment was to apply classical AI search techniques to two different domains: shortest path planning in an environment with obstacles and the Missionaries and Cannibals problem. The project focused on representing each problems as a search problems, selecting appropriate search algorithms, and analyzing how different search strategies affect solution quality and efficiency. 
@@ -16,7 +16,7 @@ The second problem focused on the Missionaries and Cannibal puzzle. A state repr
 
 ## Challanges 
 
-One of the main challanges of this assignment was correctly formulating each problem as a search problem. I learned that the quality of the solution depends heavily on how the problem is represented. Because of this, we defined states, actions, successor functions, goal tests, and path costs. 
+One of the main challenges of this assignment was correctly formulating each problem as a search problem. I learned that the quality of the solution depends heavily on how the problem is represented. Because of this, we defined states, actions, successor functions, goal tests, and path costs. 
 
 Additionally, understanding the differences between the search algorithms and determining which one should be used was a big challenge for me. While several algorithms were capable of finding solutions, I had to find the optimal search algorithm for each problem. 
 

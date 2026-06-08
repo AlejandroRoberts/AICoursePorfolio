@@ -16,7 +16,7 @@ Each agent was evaluated in multiple environments to observe how exploration, me
 
 ## Challenges
 
-One of the main challanges of this assignment was designing the environment and agent in a modular way while ensuring that each component remained independent. The PEAS framework that was built needed to interact correctly without becoming highly dependent on one another. 
+One of the main challenges of this assignment was designing the environment and agent in a modular way while ensuring that each component remained independent. The PEAS framework that was built needed to interact correctly without becoming highly dependent on one another. 
 
 Another challenge was understanding and implementing how the agents would behave when placed in different environments. While implementing the randomized and stateful agents, it became clear that there is no single strategy that performs best in every scenario. We just needed to find a way to make the agents take a direction when faced in a particular situation in the environment. Through experimentation, I observed how different factors such as agent type and environment significantly affected an agent's performance 
 
