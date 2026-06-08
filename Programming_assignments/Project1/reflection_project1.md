@@ -1,5 +1,5 @@
 # Project 1 - Python Performance with and without NumPy
----
+
 ## Objective 
 
 The objective of this assignment was to compare the performance of pure python implementation against Numpy implementations for vector and matrix multiplication. The project focused on understanding how different implementations affect computational efficiency and scalability 
