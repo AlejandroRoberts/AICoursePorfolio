@@ -1,0 +1,7 @@
+# Oral Demonstration 
+
+A major milestone of this project was the practical demonstration of our Briscas AI agent. During the presentation, we explained the overall architecture of the system, Some game implementations and the reasoning behind the different agent desings. We discussed how the Monte Carlo agent used simulations to evaluate future outcomes and how it differed from both the random and heuristic agents. 
+
+One aspct of the demonstration sthat I was particularly proud of was our team's ability to explain not only our individual contributions, but also the overall system. This required each team member to understand the architecture, implementaion details, and AI concepts used throughtout the project. As a rsult, we were able to answer questions about different parts of the code and explain the reasoning behind our design decisions. 
+
+In Conclusion , the demonstration provided an opportunity to showcase both technical work competed during the project and the teamwork reqired to succesfully develop and explain and AI application. Additionally, it was nice to be able to talk to the professor and share our experience with this project and the overall course. These spaces strenghen our comunication skills and our ability to explain our AI solutions. 
