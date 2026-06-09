@@ -1,33 +1,38 @@
-# Project 4 - Adversarial AI in Games
+# Local Search Algorithms for the 8-Puzzle and 8-Queens Problems
 
 ## Objective
 
-The objective of this assignment was to design and evaluate an agent capable of playing a game of Briscas (Two player version). The project focused on adversarial search concepts, decision making under uncertainty , and the use of Monte Carlo Simulation to evaluate possible future outcomes in a game with hidden information. 
+The objective of this assignment was to compare the performance of different local search algorithms on the 8-puzzle and 8-queens problems. The project focused on understanding how local search methods navigate a search space, handle local optima, and balance exploration and exploitation when searching for a solution.
 
-## Implementation 
+## Implementation
 
-The project was developed using the AIMA Python Game framework and implemented the complete rules of a two player Briscas game. The environment included card representations, game state management, scoring rules, legal actions, and state transitions (next rounds) 
+The project was developed using the AIMA Python repository and evaluated four local search algorithms:
 
-Three different agents were implemented and compared:
+- Steepest-Ascent Hill Climbing
+- First-Choice Hill Climbing
+- Random-Restart Hill Climbing
+- Simulated Annealing
 
-- Random agent: Selected legal moves uniformly at random
-- Heuristic agent: used game specific knowledge and predefined strategies
-- Monte Carlo agent: Evaluated legal moves by sampling possible hidden card distributions and simulating future game outcomes. 
+Random instances of the 8-puzzle and 8-queens problems were generated and solved using each algorithm. For every instance, the exact reference cost was computed and used to compare algorithm performance across different levels of difficulty.
 
-Multiple tournaments where conducted between each agent and results where collected and organized in tables and graphs using matplotlib and pandas libraries. 
+The experiments recorded whether each algorithm successfully solved the problem and the number of neighbor evaluations required during the search. The results were collected and organized into tables and graphs using pandas and matplotlib, allowing us to compare success rates and search costs across the different algorithms.
 
-## Challanges
- One of the challenges we faced was translating the card game to code. The simulator needed to accurately manage card strengths, trick winners, score calculations, draw mechanics, and legal moves while maintaining a valid game state throughout the entire match. Additionally, Balancing performance and decision quality was an important consideration. Increasing the number of Monte Carlo simulations generally improved decision making but it also increased execution time. Finding a reasonable balance between accuracy and computational cost became an important part of the project. 
+## Challenges
 
-## Lessons Learned 
+One of the challenges we faced was understanding why the same algorithm could perform differently depending on the problem being solved. Although the algorithms remained the same, the structure of the search space had a significant impact on performance. The 8-puzzle often contained plateaus and local optima that prevented algorithms from reaching the goal, while the 8-queens problem generally provided more opportunities for improvement through local moves.
 
-This assignment showed me how AI can be applied to adversarial environments that contain uncertainty and hidden information. The tournament results showed that the Monte Carlo agent consistently outperformed the random agent, demonstrating that simulation-based decision making provides a significant advantage over random play, However, performance is limited to the capacity of simulations that can be handled. In comparison with the heuristic agent, it was more competitive because the heuristic player made decisions based on game specific strategies and rules previously given. 
+Another challenge was evaluating performance beyond simply finding a solution. Since local search algorithms do not guarantee optimal results, it was important to analyze success rates, search costs, and the number of neighbor evaluations in order to make meaningful comparisons between algorithms.
 
-The project reinforced the importance of experimentation and evaluation, Rather than assuming an agent performs well, repeated tournaments and statistical analysis were necessary to measure its actual performance against different opponents. One can assume that the random agent will always lose against the Monte Carlo agent, but the data showed that the random agent was able to win in some instances. 
+## Lessons Learned
 
+This assignment helped me better understand the strengths and limitations of local search algorithms. The results showed that random-restart hill climbing generally achieved the highest success rates because it could recover from poor starting positions by exploring multiple search paths. Simulated annealing demonstrated how temporarily accepting worse states can help escape local optima and improve the chances of finding a solution.
 
-## Final Thoughts 
+The project reinforced concepts such as local optima, heuristic evaluation, exploration versus exploitation, and performance analysis. It also showed that the effectiveness of an algorithm depends heavily on the structure of the problem being solved rather than the algorithm alone.
 
-I really enjoyed this project because of the game environment we where able to build. It was entertaining to run the tournaments and see how each agent performed. Moreover, it was satisfying to see the games run correctly when introduced with the correct set of rules and game state management. 
+The experiments demonstrated the importance of collecting data and evaluating AI systems through testing. Rather than assuming that one algorithm would always outperform another, the results showed that each search strategy has advantages and disadvantages depending on the environment and problem characteristics.
 
-Overall, I am very pleased with what we as a group built and how this project strengthened my understanding of adversarial AI, decision making under uncertainty, and the importance of evaluating AI systems through experimentation. It also gave me a greater appreciation for the complexity involved in designing game playing agents and the tradeoffs that must be considered when balancing performance and computational resources.
+## Final Thoughts
+
+I enjoyed this project because it allowed me to compare several Artificial Intelligence techniques in a practical setting and observe how they behaved on different types of problems. It was interesting to see how the same algorithm could produce very different results depending on the structure of the search space.
+
+Overall, I am very pleased with what we as a group accomplished and how this project strengthened my understanding of local search algorithms and optimization techniques. It provided a practical demonstration of concepts discussed in class and showed the importance of experimentation when evaluating Artificial Intelligence systems.
