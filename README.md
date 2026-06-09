@@ -16,6 +16,6 @@ Welcome to my Artificial Intelligence Course Portfolio. This portfolio documents
 | [Teamwork and Collaboration](teamwork/) | Reflection on team collaboration and lessons learned | 
 | [Essays and Forums](essays_and_forums/) | Essays, debates, and forum contributions |
 | [Literature Review](literature_review/) | AI papers and article summaries |
-| [Self Assessment](self_assessment/) | Final reflection on strengths and growth |
-| [Applications and Demos](applications_and_demos/) | AI project demos, screenshots, and videos |
+| [Self Assessment](self_assessment/) | Final reflection on strengths and growth and Portfolio Addendum|
+| [Assets](assets/) | Videos of Programming Assignemts |
 
