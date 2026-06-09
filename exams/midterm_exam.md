@@ -5,7 +5,7 @@
 | Item | Details |
 |--------|--------|
 | Date | Monday, April 20, 2026 |
-| Time | 1 hour 56 minutes (2-hour exam) |
+| Topics| Chapters 1 to 5|
 | Score | **83/88 = 94.3%** |
 
 ---
